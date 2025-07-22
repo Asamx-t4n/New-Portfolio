@@ -9,9 +9,9 @@ const App = () => {
 	const [isOpen, setIsOpen] = useState(true);
 	useEffect(() => {
 		AOS.init({
-			duration: 1000, // animation duration (ms)
-			once: true, // whether animation should happen only once
-			offset: 120, // offset (in px) from the original trigger point
+			duration: 1000,
+			once: true,
+			offset: 120,
 		});
 	}, []);
 
